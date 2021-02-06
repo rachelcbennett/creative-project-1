@@ -7,19 +7,25 @@
     .shortcut{
         width:100%;
     }
+    .recipe{
+        width:100%;
+    }
 }
   
-  /* Masonry on big screens */
+
+  /* Masonry on desktop */
   @media only screen and (min-width:600px) {
 
   .masonry {
       column-count: 4;
     }
     .shortcut{
-        width:33%;
-    }
+        width:30%;
   }
-
+    .recipe{
+        width:75%;
+    }
+}
 .square{
     background-color: whitesmoke;
 }
@@ -28,21 +34,14 @@
     position:relative;
     z-index: 1;
     background-color:rgb(255, 255, 255);
-    opacity: 95%
+    opacity: 95%;
+    border-radius: 5px;
 
 }
-/*
-.pizza{
-    position: fixed;
-    height:1000px;
-    width: 100%;
-    float:none;
-    z-index: 0;
-    opacity:100%;
-} */
+
 
 .item:hover{
-    opacity: 80%;
+    opacity: 100%;
 }
 
 hr{
@@ -51,9 +50,15 @@ hr{
 }
 
 *{
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Pavanam', sans-serif;
 }
-
+h2{
+    font-weight:bold;
+    padding-top:40px;
+    margin-top:10px;
+    padding-left:18px;
+    text-align:center;
+}
 .logo{
     height:100%;
     max-width:350px;
@@ -66,11 +71,12 @@ hr{
 
 .nav-item{
     padding-top: 10px;
+    font-size: 20pt;
 }
 .shortcut{
     
-    margin: 15px;
-    padding: 10px;
+    margin: 1.5%;
+    padding: 1.5%;
     float:left;
 }
 .shortcut:hover{
@@ -82,27 +88,20 @@ hr{
     width:100%;
     opacity: 95%;
     z-index: 2;
+    font-weight:bold;
+    border-radius: 5px;
 }
 .nav-link{
     
     font-size:larger;
 }
 
-.col-sm{
-    width:20px
-}
-
-.col-lg{
-    width:100px
-}
-
-
-
 
 /* Grid*/
 
 .masonry{
-
+    margin-left: 5%;
+    margin-right:5%;
     column-gap: 1em;
 }
 
@@ -111,11 +110,15 @@ hr{
     padding:10px;
     background-color:rgb(245, 240, 240);
     display: inline-block;
-    margin: 0 0 1em;
+
+    padding:20px;
     width: 100%;
+    opacity:95%
 }
 
-
+.row{
+    padding:10px;
+}
 
 /* Menu */
 .bg-dark {
@@ -132,11 +135,6 @@ img {
     width:100%;
 }
 
-
-
-h1{
-    font-family: "Times New Roman", Times, serif;
-}
 
 footer{
     position: fixed;
@@ -171,5 +169,33 @@ body{
 
 .navbar-nav { 
     margin-left:auto;
+    margin-right:35px;
+}
 
-} 
+#author{
+    font-size: small;
+}
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.recipe{
+    background-color:rgb(255, 251, 251);
+    margin-right:auto;
+    margin-left:auto;
+    opacity:100%;
+    padding:20px;
+
+}
+
+.recipe-pic{
+    max-width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+h1{
+    text-align:center;
+}
