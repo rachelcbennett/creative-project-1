@@ -1,0 +1,175 @@
+/* Masonry on tablets */
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+    .masonry {
+      column-count: 2;
+    }
+
+    .shortcut{
+        width:100%;
+    }
+}
+  
+  /* Masonry on big screens */
+  @media only screen and (min-width:600px) {
+
+  .masonry {
+      column-count: 4;
+    }
+    .shortcut{
+        width:33%;
+    }
+  }
+
+.square{
+    background-color: whitesmoke;
+}
+.container{
+    width:75%;
+    position:relative;
+    z-index: 1;
+    background-color:rgb(255, 255, 255);
+    opacity: 95%
+
+}
+/*
+.pizza{
+    position: fixed;
+    height:1000px;
+    width: 100%;
+    float:none;
+    z-index: 0;
+    opacity:100%;
+} */
+
+.item:hover{
+    opacity: 80%;
+}
+
+hr{
+    width:50%;
+    float:right;
+}
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.logo{
+    height:100%;
+    max-width:350px;
+    position: relative;
+    z-index: 1; 
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.nav-item{
+    padding-top: 10px;
+}
+.shortcut{
+    
+    margin: 15px;
+    padding: 10px;
+    float:left;
+}
+.shortcut:hover{
+    padding:0px;
+}
+
+.navbar{
+    /*position:fixed;*/
+    width:100%;
+    opacity: 95%;
+    z-index: 2;
+}
+.nav-link{
+    
+    font-size:larger;
+}
+
+.col-sm{
+    width:20px
+}
+
+.col-lg{
+    width:100px
+}
+
+
+
+
+/* Grid*/
+
+.masonry{
+
+    column-gap: 1em;
+}
+
+.item {
+    border: 40px;
+    padding:10px;
+    background-color:rgb(245, 240, 240);
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+
+
+/* Menu */
+.bg-dark {
+    background-color: #ffffff !important;
+    background:transparent;
+  }
+
+
+.navbar {
+    min-height: 80px;
+}
+
+img {
+    width:100%;
+}
+
+
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(240, 233, 233);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+
+}
+footer:hover{
+    opacity: 75%;
+    
+}
+
+body{
+    min-height:100%;
+    /* max-width:900px; */
+    
+    background-image: url(/images/pizza.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.space{
+    height:100px;
+}
+
+.navbar-nav { 
+    margin-left:auto;
+
+} 
