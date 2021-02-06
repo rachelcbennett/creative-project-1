@@ -30,6 +30,7 @@
     background-color: whitesmoke;
 }
 .container{
+
     width:75%;
     position:relative;
     z-index: 1;
@@ -144,11 +145,8 @@ footer{
     background-color: rgb(240, 233, 233);
     z-index: 2;
     text-align: center;
-
-}
-footer:hover{
     opacity: 75%;
-    
+
 }
 
 body{
@@ -164,7 +162,7 @@ body{
 }
 
 .space{
-    height:100px;
+    height:75px;
 }
 
 .navbar-nav { 
