@@ -89,7 +89,7 @@ h2{
     opacity: 95%;
     z-index: 2;
     font-weight:bold;
-    border-radius: 5px;
+    border-radius: 5px ;
 }
 .nav-link{
     
@@ -142,7 +142,7 @@ footer{
     width: 100%;
     height: 40px;
     background-color: rgb(240, 233, 233);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    z-index: 2;
     text-align: center;
 
 }
